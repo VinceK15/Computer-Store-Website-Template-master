@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        td {
+            text-align: center;
+        }
+
+        .button1 {
+            margin-left: 45%;
+        }
+
+        .button2 {
+            margin-left: 12%;
+        }
+
+        .tablealign {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <title>Ordering Page</title>
+</head>
+
+<body>
+    <article>
+        <table class="tablealign">
+            <tr>
+            <th>Category</th>
+            <th>Quantity</th>
+            </tr>
+            <tr>
+                <td><select name="GPU">
+                        <option>EVGA Geforce 1080ti</option>
+                        <option>MSI Radeon RX 580</option>
+                        <option>Asus Geforce GTX 1060</option>
+                    </select></td>
+                <td>
+                    <form><input type="number" name="Quantity" max="999" min="0"></form>
+                </td>
+            </tr>
+            <tr>
+                <td><select name="CPU">
+                        <option>Intel i5 9600k</option>
+                        <option>Intel i3 8100</option>
+                        <option>Intel i7 9700k</option>
+                    </select></td>
+                <td>
+                    <form><input type="number" name="Quantity" max="999" min="0"></form>
+                </td>
+            </tr>
+            <tr>
+                <td><select name="Motherboard">
+                        <option>MSI Performance Gaming MPG X570 Gaming Edge WiFi AMD Ryzen</option>
+                        <option>GIGABYTE X399 AORUS XTREME AMD Ryzen Threadripper</option>
+                        <option>ASRock Fatal1ty B450 GAMING K4</option>
+                    </select></td>
+                <td>
+                    <form><input type="number" name="Quantity" max="999" min="0"></form>
+                </td>
+            </tr>
+        </table>
+        <button class="button1" onclick="alert1()">Order now</button>
+        <script>
+            function alert1() {
+                alert("Thank you, come again! :)");
+            }
+        </script>
+        <button class="button2" onclick="alert2()">Cancel</button>
+        <script>
+            function alert2() {
+                alert("Sorry we could not do business with you, we hope to see you again!");
+            }
+        </script>
+    </article>
+</body>
+
+</html>

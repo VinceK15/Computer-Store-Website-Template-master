@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(106, 214, 106)
+}
+
+nav {
+    float: left;
+    position: relative;
+}
+
+
+.iframe1 {
+    width: 1250px;
+    height: 750px;
+    margin-left: 10%;
+    position: relative;
+}
+
+.h11 {
+    text-align: center;
+    color: darkslategray;
+}
+
+.h12 {
+    text-align: center;
+    margin-right: 8%;
+    color: dimgray;
+}
