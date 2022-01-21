@@ -1,3 +1,3 @@
-# Computer-Store-Website-template
+# Computer Store Website
 
-A simple website template for a computer store, using HTML. Not using database
+A simple designed website for a computer store, using HTML/CSS.
