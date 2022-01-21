@@ -1,5 +1,6 @@
+
 body {
-    background-color: rgb(106, 214, 106)
+    background-image: url("images/backgroundcolour.jpg")
 }
 
 nav {
@@ -11,17 +12,68 @@ nav {
 .iframe1 {
     width: 1250px;
     height: 750px;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
 }
 
 .h11 {
     text-align: center;
-    color: darkslategray;
+    color: lightgray;
 }
 
 .h12 {
     text-align: center;
     margin-right: 8%;
-    color: dimgray;
+    color: lightgrey;
+    font-style: italic;
+}
+
+a{
+    color: lightskyblue;
+    font-size: 1.2em;
+    position: relative;
+    line-height: 200%;
+}
+
+.sizefont {
+    font-size: 1.8em;
+    text-align: center;
+    color: darkseagreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 50%
+}
+
+td{
+    color:darkseagreen;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+th{
+    color: lightgrey;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.th1{
+    width: 40%;
+}
+.tablealign{
+margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    margin-left: 43.5%;
+}
+
+.button2 {
+    margin-left: 15.5%;
 }
