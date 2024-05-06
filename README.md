@@ -1,3 +1,3 @@
 # Computer Store Website
 
-A simple static website for a computer store, using HTML/CSS, made in my first web development class at Seneca College.
+A simple static website designed as a computer store to demonstrate beginner level coding using HTML/CSS, made in my first web development class.
